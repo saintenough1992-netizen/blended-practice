@@ -1,8 +1,7 @@
 body {
-  background-color: #1c2225;
+  background-color: #fff;
   margin: 0;
-  font-family: 'Manrope', sans-serif;
-  color: rgba(252, 249, 249, 0.4);
+  font-family: 'Inter', sans-serif;
 }
 h1,
 h2,
@@ -11,8 +10,14 @@ h4,
 h5,
 h6,
 a {
-  color: #fcf9f9;
+  display: block;
 }
 address {
   font-style: normal;
+}
+section,
+header,
+footer {
+  max-width: 1440px;
+  margin: 0 auto;
 }

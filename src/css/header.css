@@ -41,16 +41,17 @@
   text-align: center;
   transition: all 0.2s ease-in-out;
 }
-.nav-list-item:hover,
-.nav-list-item:focus {
+.nav-list-item a:hover,
+.nav-list-item a:focus {
   background: #1b414b;
 }
 .nav-list-item a {
-  padding: 15px 25px;
+  padding: 14px 25px;
   color: #fbfbfb;
   font-size: 9px;
   line-height: 130%;
   text-transform: uppercase;
+  border-radius: 8px;
 }
 .social-links,
 .burger-menu {

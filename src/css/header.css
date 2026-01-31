@@ -14,13 +14,10 @@
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  padding: 4px;
+  padding: 4px 30px;
 }
 .header {
   color: #1b414b;
-}
-.logo {
-  margin-left: 30px;
 }
 .logo a {
   font-weight: 500;
@@ -53,10 +50,6 @@
   text-transform: uppercase;
   border-radius: 8px;
 }
-.social-links,
-.burger-menu {
-  margin-right: 30px;
-}
 .social-links-list {
   display: flex;
   gap: 8px;
@@ -68,8 +61,8 @@
 .social-icon {
   fill: #1b414b;
 }
-.social-links-item:hover .social-icon,
-.social-links-item:focus .social-icon {
+.social-links-item a:hover .social-icon,
+.social-links-item a:focus .social-icon {
   fill: #062730;
 }
 .burger-menu {

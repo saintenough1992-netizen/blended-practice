@@ -1,9 +1,12 @@
+.social-links,
+.main-nav {
+  display: none;
+}
 .header .container {
   position: fixed;
   top: 30px;
   left: 50%;
   transform: translateX(-50%);
-  max-width: 1280px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -11,10 +14,13 @@
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  padding: 4px 30px;
+  padding: 4px;
 }
 .header {
   color: #1b414b;
+}
+.logo {
+  margin-left: 30px;
 }
 .logo a {
   font-weight: 500;
@@ -46,6 +52,10 @@
   line-height: 130%;
   text-transform: uppercase;
 }
+.social-links,
+.burger-menu {
+  margin-right: 30px;
+}
 .social-links-list {
   display: flex;
   gap: 8px;
@@ -61,9 +71,21 @@
 .social-links-item:focus .social-icon {
   fill: #062730;
 }
+.burger-menu {
+  border: none;
+  background-color: transparent;
+  height: 28px;
+  width: 28px;
+  background: url('/img/burger-menu.svg') no-repeat center;
+  background-size: contain;
+}
 @media only screen and (min-width: 768px) {
   .burger-menu {
     display: none;
+  }
+  .social-links,
+  .main-nav {
+    display: block;
   }
   .logo a {
     font-size: 20px;

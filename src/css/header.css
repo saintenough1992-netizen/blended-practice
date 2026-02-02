@@ -14,10 +14,13 @@
   background-color: #fbfbfb;
   border: 1px solid #fbfbfb;
   border-radius: 8px;
-  padding: 4px 30px;
+  padding: 4px 0;
 }
 .header {
   color: #1b414b;
+}
+.logo{
+  padding-left: 30px;
 }
 .logo a {
   font-weight: 500;
@@ -53,6 +56,7 @@
 .social-links-list {
   display: flex;
   gap: 8px;
+  padding-right: 30px;
 }
 .social-links-item {
   height: 24px;
